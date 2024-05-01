@@ -1,0 +1,71 @@
+body {
+    font-family: 'Goudy Old Style', serif;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Goudy Old Style', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #FFA500; /* light orange */
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #FF8C00; /* Dark orange */
+    color: white;
+}
+
+.note {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.close {
+    float: right;
+    font-size: 25px;
+    color: darkgrey;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.close:hover {
+    color: red;
+}

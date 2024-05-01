@@ -1,0 +1,27 @@
+{% extends "index.html" %}
+
+{% block title %}
+    Sign up
+{% endblock %}
+
+{% block content %}
+    <form action="/sign-up" method="POST">
+        <h3 align="center">Sign Up</h3>
+        <div class="mb-3">
+            <label for="username">Username</label>
+            <input class="form-control" id="username" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="mb-3">
+            <label for="password">Password</label>
+            <input class="form-control" id="password" name="password" placeholder="Password" type="password"
+            title="Password requirments: At least 8 characters, at least one uppercase letter, at least one number, at least one punctuation">
+            <p>Password requirements: At least 8 characters, at least one uppercase letter, at least one number, at least one punctuation</p>
+        </div>
+        <div class="mb-3">
+            <label for="confirmation">Confirm Password</label>
+            <input class="form-control" id="confirmation" name="confirmation" placeholder="Confirm password" type="password">
+        </div>
+        <br>
+        <button class="btn btn-primary" type="submit">Sign Up</button>
+    </form>
+{% endblock %}
